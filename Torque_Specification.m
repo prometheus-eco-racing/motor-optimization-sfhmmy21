@@ -2,7 +2,7 @@ function T_sp = Torque_Specification()
 	% This function calculates the torque needed for the motor to produce,
 	% in order to be able to drive a specific vehicle under all conditions. 
     % You need to modify properly the function below the current, named
-	% Calculate_Torque() which you can find at the end of the page
+	% Calculate_Torque() which you can find at the end of the page.
 
 	%% Input - Problem Data Initialization
 	Veh_Parameters.RR_Coefficient     = 0.012;
