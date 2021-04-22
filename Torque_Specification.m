@@ -33,6 +33,7 @@ function T_sp = Torque_Specification()
 	%% Output - Sizing the motor according to the most difficult conditions calculated above. 
 	T_sp = round( Safety_Coefficient*max([T1,T2,T3,T4]), 0 ); % max torque + 5% safety margin
 
+	%%
 	function T = Calculate_Torque(Veh_Parameters, Driver_Parameters, Environment_Parameters, movement_type)
 
 		%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
