@@ -11,7 +11,7 @@
 
 rso = ...              % Stator outer radius                                       complete according to your strategy
 rsi = (...)*rso;       % Stator inner radius                                       0.35 - 0.65
-dm  = (...)*rso;       % Magnet thickness                                          0.04 - 0.012
+dm  = (...)*rso;       % Magnet thickness                                          0.04 - 0.12
 dc  = (...)*dm;        % Can thickness                                             0.5-1.5
 ds  = (...)*dm;        % depth of slot opening                                     0.3-0.9
 fm  = ...              % Pole fraction spanned by the magnet                       0.5-0.9
