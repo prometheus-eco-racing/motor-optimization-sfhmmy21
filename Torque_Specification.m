@@ -7,7 +7,7 @@ function T_sp = Torque_Specification()
 	%% Input - Problem Data Initialization
 	Veh_Parameters.RR_Coefficient     = 0.012;
 	Veh_Parameters.Drag_Coefficient   = 0.3; 
-	Veh_Parameters.Cross_Section_Area = 0.3; %m^2
+	Veh_Parameters.Cross_Section_Area = 1.25; %m^2
 	Veh_Parameters.Wheel_Diameter     = 0.5; %m
 	Veh_Parameters.Mass               = 200; %Kg Driver included
 	Veh_Parameters.Inertia_Mass       = 0.1*Veh_Parameters.Mass; %approximation Inertia Mass 10% of Vehicle Mass
